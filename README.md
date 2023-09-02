@@ -4,6 +4,9 @@ Ten projekt został wykonany w oparciu o Język JavaScript przy użyciu framewor
 
 2. Po tym-napisz w wierszu poleceń "npm start" i React zacznie działać.
 
+Aby się zarejestrować, musisz wpisać więcej niż 6 znaków hasła
+Aby się zarejestrować należy napisać yourRandomEmail@gmail.com
+
 <!-- Node js -->
 
 https://nodejs.org/
