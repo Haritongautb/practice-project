@@ -1,0 +1,31 @@
+@import "../settings/vars.scss";
+
+.contacts{
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__board{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 40px;
+        background-color: $main-color-2;
+    }
+    &__socials{
+        a{
+            display: block;
+        }
+        a:not(:last-child){
+            margin-bottom: 15px;
+        }
+    }
+    &__board-name{
+        margin-bottom: 10px;
+    }
+}
+
+
+.block-contacts:not(:last-child){
+    margin-bottom: 30px;
+}

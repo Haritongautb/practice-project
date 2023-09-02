@@ -1,0 +1,9 @@
+@import "../settings/vars.scss";
+.home{
+    &__text{
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+        color: $main-color-1;
+    }
+}

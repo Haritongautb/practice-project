@@ -1,0 +1,47 @@
+@import "./vars.scss";
+
+html,
+body{
+    min-height: 100%;
+}
+
+body{
+    font-family: "MuseoModerno", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+
+    color: $main-color-1;
+
+    overflow-x: hidden;
+    min-width: 260px;
+    background-color: $main-color-3;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main{
+    padding-top: 100px;
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 0 auto;
+}
+
+.container-fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
